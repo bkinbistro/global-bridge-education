@@ -228,3 +228,5 @@ footer .wrap>span{white-space:nowrap;font-size:12px}
 footer .dev{font-size:12px}
 footer .dev img{width:16px;height:16px}
 }
+.pre .wrap>*{min-width:0}
+@media (max-width:350px){footer .wrap>span{font-size:11px}}
