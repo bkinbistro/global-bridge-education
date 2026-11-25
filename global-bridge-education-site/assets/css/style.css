@@ -174,6 +174,10 @@ section{padding:104px 0}
 footer{padding:40px 0;border-top:1px solid var(--line);font-size:14px;color:var(--mut)}
 footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
 footer b{color:var(--ink)}
+footer .dev{display:inline-flex;align-items:center;gap:6px;font-size:13px;letter-spacing:.2px}
+footer .dev img{border-radius:5px;margin-left:2px}
+footer .dev b{font-weight:700;letter-spacing:.6px}
+footer{padding-bottom:96px}
 
 .wa-fab{position:fixed;right:22px;bottom:22px;width:60px;height:60px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px -10px rgba(22,163,74,.75);z-index:40;transition:transform .15s}
 .wa-fab:hover{transform:scale(1.06)}
